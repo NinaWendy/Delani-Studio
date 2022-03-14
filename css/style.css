@@ -131,7 +131,19 @@ h4 {
     h3 {
         font-size: 3vw;
     }
-
+    h4{
+        font-size: 5vw; 
+       
+     }
+     .para4, .para3 , .para5{
+         font-size: 3vw;
+     }
+     .hidden, .hidden2, .hidden3{
+         font-size: 2.5vw;
+     }
+    .showed , .showed2, .showed3{
+        margin-left: -5%;
+    }
 
 }
 
@@ -165,4 +177,5 @@ h4 {
     h4 {
         font-size: 2.5vw;
     }
+    
 }
