@@ -19,6 +19,15 @@
 .hero-para {
     margin-bottom: 15%;
 }
+
+.row1 {
+    text-align: center;
+    margin-top: 3%;
+}
+.para2{
+    font-size: 1.2vw;
+}
+
 @media only screen and (max-width:500px) {
     .carousel-caption {
         font-size: 2vw;
