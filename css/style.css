@@ -47,7 +47,13 @@
     .mouse {
         width: 2vw;
     }
+    h3 {
+        font-size: 3vw;
+    }
 
+    .para2 {
+        font-size: 2.5vw;
+    }
 
 
 
@@ -69,4 +75,10 @@
     .mouse {
         width: 1.5vw;
     }
+    /* .para2{
+        font-size: 1.7vw;
+    }
+    h3{
+        font-size: 2.5vw;
+    } */
 }
