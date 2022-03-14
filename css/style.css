@@ -201,7 +201,7 @@ form {
     backdrop-filter: blur(0.2vw);
     animation-delay: 0.5s;
     animation: appear 0.5s;
-    /* display: none; */
+    display: none;
 }
 .dismiss {
     padding: 2% 7%;
