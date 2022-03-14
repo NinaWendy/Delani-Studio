@@ -19,3 +19,27 @@
 .hero-para {
     margin-bottom: 15%;
 }
+@media only screen and (max-width:500px) {
+    .carousel-caption {
+        font-size: 2vw;
+        margin-bottom: -9%;
+
+    }
+
+    .d-img {
+        width: 7vw;
+    }
+
+    .hero-para {
+        margin-top: -3%;
+        font-size: 1.7vw;
+    }
+
+    .mouse {
+        width: 2vw;
+    }
+
+
+
+
+}
