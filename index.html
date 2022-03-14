@@ -160,28 +160,36 @@
         </div>
     </section>
     <!-- Contact Us Section  -->
-    <form  action="https://us14.list-manage.com/contact-form?u=edbdafffabd0744dbfce6c6bd&form_id=966594b9da056eed85b52f8baa7e6e0f" method="post"  id="subscribe-form" name="subscribe-form"  >
-        <div class="row info">
-            <h6>CONTACT US</h6>
-          <div class="col">
-            <input type="text" class="form-control one" placeholder="Name..." name="FNAME" id="name">
-          </div>
-          <div class="col">
-            <input type="email" class="form-control two" placeholder="Email..." name="EMAIL" id="email">
-          </div>
+    <div class="container-fluid">
+        <div class="row row5">
+            <form
+                action="https://us14.list-manage.com/contact-form?u=edbdafffabd0744dbfce6c6bd&form_id=966594b9da056eed85b52f8baa7e6e0f"
+                method="post" id="subscribe-form" name="subscribe-form">
+                <div class="row info">
+                    <h6>CONTACT US</h6>
+                    <div class="col">
+                        <input type="text" class="form-control one" placeholder="Name..." name="FNAME" id="name">
+                    </div>
+                    <div class="col">
+                        <input type="email" class="form-control two" placeholder="Email..." name="EMAIL" id="email">
+                    </div>
+                </div>
+                <div class="mb-3 mt-3">
+                    <textarea class="form-control three" rows="10" id="message" name="text"
+                        placeholder="Your message here..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" id="subscribe">Submit</button>
+            </form>
+            <div class="successful">
+                <h3>Message Sent!</h3>
+                <p>Thank you for contacting Delani Studio</p>
+                <button class="dismiss">
+                    ok
+                </button>
+            </div>
         </div>
-        <div class="mb-3 mt-3">
-            <textarea class="form-control three" rows="10" id="message" name="text" placeholder="Your message here..."></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary" id="subscribe" >Submit</button>
-    </form>
-    <div class="successful">
-        <h3>Message Sent!</h3>
-        <p>Thank you for contacting Delani Studio</p>
-        <button class="dismiss">
-            ok
-        </button>
     </div>
+    
 
 
 
@@ -191,9 +199,8 @@
 
 
 
-
-    <script src="./js/bootstrap.js"></script>
-    <script src="./js/script.js"></script>
+            <script src="./js/bootstrap.js"></script>
+            <script src="./js/script.js"></script>
 </body>
 
 </html>

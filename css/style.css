@@ -152,7 +152,88 @@ h4 {
     border: solid 0.3vw white;
 }
 
+/* style contact section */
 
+.row5 {
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 4%;
+}
+form {
+    padding-top: 5%;
+    margin-left: 20%;
+    animation-delay: 0.5s;
+    animation: appear 0.5s;
+
+}
+#subscribe-form .info input::placeholder {
+    color: rgb(197, 197, 197);
+}
+
+#subscribe-form textarea::placeholder {
+    color: rgb(197, 197, 197);
+}
+.form-control {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 0;
+    width: 40vw;
+    outline: none;
+
+}
+.btn-primary{
+    background-color: transparent;
+    border-color: white;
+}
+.successful {
+    width: 50%;
+    padding: 5%;
+    outline: none;
+    border: 0.1vw solid white;
+    border-radius: 0.3vw;
+    background-color: black;
+    color:white;
+    font-size: 1vw;
+    margin-top: 5%;
+    cursor: pointer;
+    backdrop-filter: blur(0.2vw);
+    animation-delay: 0.5s;
+    animation: appear 0.5s;
+    /* display: none; */
+}
+.dismiss {
+    padding: 2% 7%;
+    outline: none;
+    border: 0.1vw solid #fff;
+    border-radius: 0.3vw;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1vw;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.one {
+    width: 30vw;
+
+}
+
+.two {
+    width: 30vw;
+    margin-left: -38%;
+}
+
+.three {
+    width: 60vw;
+    margin-left: 0.5%;
+}
+
+h6 {
+    color: white;
+    font-size: 2vw;
+    margin-left: 25%;
+}
 
 
 
