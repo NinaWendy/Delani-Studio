@@ -1,7 +1,7 @@
 # Delani-Studio
 
 #### By Wendy Nina
-<img src="../assets/Delani.png">
+<img src="./assets/Delani.png">
 
 ## Table of Content
 
