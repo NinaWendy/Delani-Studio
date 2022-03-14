@@ -7,13 +7,14 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
 .carousel-caption h1 {
     font-size: 3.5vw;
     margin-bottom: 3%;
 }
 
 .carousel-caption h2 {
-    font-size: 3.5vw;  
+    font-size: 3.5vw;
 }
 
 .hero-para {
@@ -24,9 +25,11 @@
     text-align: center;
     margin-top: 3%;
 }
-.para2{
+
+.para2 {
     font-size: 1.2vw;
 }
+
 .row2 {
     text-align: center;
     margin-top: 3%;
@@ -41,6 +44,41 @@
     padding-top: 10%;
 }
 
+/* style what we do */
+h4 {
+    margin-left: 41%;
+    padding-top: 5%;
+    margin-bottom: 3%;
+}
+
+.row3 {
+    margin-left: 8%;
+}
+
+.hidden,
+.hidden2,
+.hidden3 {
+    text-align: center;
+    display: none;
+}
+
+.para4 {
+    margin-left: 3%;
+    font-weight: bold;
+    color: black;
+}
+
+.para3 {
+    margin-left: -6%;
+    color: black;
+    font-weight: bold;
+}
+
+.para5 {
+    margin-left: -12%;
+    color: black;
+    font-weight: bold;
+}
 
 
 
@@ -81,6 +119,7 @@
     .mouse {
         width: 2vw;
     }
+
     h3 {
         font-size: 3vw;
     }
@@ -95,6 +134,7 @@
 
 
 }
+
 @media only screen and (min-width:768px) {
     .carousel-caption {
         margin-bottom: -3%;
@@ -112,13 +152,17 @@
     .mouse {
         width: 1.5vw;
     }
-    .para2{
+
+    .para2 {
         font-size: 1.7vw;
     }
-    h3{
+
+    h3 {
         font-size: 2.5vw;
     }
-    h3 , h4{
+
+    h3,
+    h4 {
         font-size: 2.5vw;
     }
 }
