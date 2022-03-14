@@ -27,4 +27,39 @@ $(document).ready(function () {
         $('.showed3').css('display', 'inline');
         $('.hidden3').css('display', 'none');
     });
+
+
+
+    let image = document.querySelectorAll(".image")
+    let itemsArray = ["one", "two", "three", "four", "five", "six", "seven", "eight"]
+
+    for (i = 0; i < image.length; i++) {
+        image[i].addEventListener("mouseover", (e) => {
+            let hoverTextClass = e.target.lastElementChild.className.split(" ")[1]
+            let backImage = e.target.firstElementChild
+            for (j = 0; j < itemsArray.length; j++) {
+                if (hoverTextClass === itemsArray[j]) {
+                    $(`.${hoverTextClass}`).css({
+                        'display': 'flex'
+                    })
+                    backImage.style.filter = 'brightness(50%)'
+                }
+            }
+        })
+    }
+
+    for (i = 0; i < image.length; i++) {
+        image[i].addEventListener("mouseout", (e) => {
+            let hoverTextClass = e.target.lastElementChild.className.split(" ")[1]
+            let backImage = e.target.firstElementChild
+            for (j = 0; j < itemsArray.length; j++) {
+                if (hoverTextClass === itemsArray[j]) {
+                    $(`.${hoverTextClass}`).css({
+                        'display': 'none'
+                    })
+                    backImage.style.filter = 'brightness(100%)'
+                }
+            }
+        })
+    }
 });
