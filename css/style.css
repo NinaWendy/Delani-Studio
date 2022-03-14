@@ -27,6 +27,40 @@
 .para2{
     font-size: 1.2vw;
 }
+.row2 {
+    text-align: center;
+    margin-top: 3%;
+    color: white;
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.services {
+    padding-top: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width:500px) {
     .carousel-caption {
