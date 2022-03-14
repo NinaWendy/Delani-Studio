@@ -43,3 +43,21 @@
 
 
 }
+@media only screen and (min-width:768px) {
+    .carousel-caption {
+        margin-bottom: -3%;
+        font-size: 2vw;
+    }
+
+    .hero-para {
+        font-size: 1.2vw;
+    }
+
+    .d-img {
+        width: 7vw;
+    }
+
+    .mouse {
+        width: 1.5vw;
+    }
+}
