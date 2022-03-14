@@ -7,3 +7,15 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+.carousel-caption h1 {
+    font-size: 3.5vw;
+    margin-bottom: 3%;
+}
+
+.carousel-caption h2 {
+    font-size: 3.5vw;  
+}
+
+.hero-para {
+    margin-bottom: 15%;
+}
